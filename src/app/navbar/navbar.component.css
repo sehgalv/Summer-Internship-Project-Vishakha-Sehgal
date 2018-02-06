@@ -1,9 +1,21 @@
-.navbar-brand {
+/* .navbar-brand {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
 }
 
 li {
     list-style: none
+} */
+
+.spacer {
+    flex: 1 1 auto;
 }
 
+.tab {
+    padding: 0 14px;
+}
+
+#toolbar {
+    position: relative;
+    background-color:transparent;
+}

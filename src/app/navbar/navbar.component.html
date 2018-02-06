@@ -1,10 +1,10 @@
-<nav class="navbar navbar-inverse navbar-toggleable-md fixed-top bg-faded">
+<!-- <nav class="navbar navbar-inverse navbar-toggleable-md fixed-top bg-faded"> -->
   <!-- <button class="navbar-toggler navbar-toggler-right" type="button" (click)="isCollapsed = !isCollapsed">
     <span class="navbar-toggler-icon"> </span>
   </button> -->
-  <a class="navbar-brand" [routerLink]="['/']">Vishakha Sehgal</a>
+  <!-- <a class="navbar-brand" [routerLink]="['/']">Vishakha Sehgal</a> -->
   <!-- <div class="collapse navbar-collaspe" [ngbCollapse]= "isCollapsed"> -->
-    <ul class="nav navbar-nav">
+    <!-- <ul class="nav navbar-nav">
       <li class="navbar-item">
         <a [routerLink]="['/']">Home<span class="sr-only">(current)</span></a>
       </li>
@@ -17,8 +17,15 @@
       <li class="navbar-item">
           <a [routerLink]="['/hobbies']">Hobbies</a>
         </li>
-    </ul>
+    </ul> -->
   <!-- </div> -->
-</nav>
-
+<!-- </nav> -->
+<mat-toolbar id="toolbar" class="transparent"> 
+  <span [routerLink]="['/']">Vishakha Sehgal</span>
+  <span class="spacer"></span>
+  <span class="tab"><a [routerLink]="['/']">Home<span class="sr-only">(current)</span></a></span>
+  <span class="tab"><a [routerLink]="['/academics']">Academics</a></span>
+  <span class="tab"><a [routerLink]="['/involvement']">Involvement</a></span>
+  <span class="tab"><a [routerLink]="['/hobbies']">Hobbies</a></span>
+</mat-toolbar>
 <router-outlet></router-outlet>

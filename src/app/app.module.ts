@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatCardModule} from '@angular/material/card';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 import { RouterModule, Routes} from '@angular/router'
 
@@ -29,6 +31,8 @@ const appRoutes: Routes= [
   ],
   imports: [
     BrowserModule,
+    MatCardModule,
+    MatToolbarModule,
     NgbModule.forRoot(),
     RouterModule.forRoot(appRoutes)
   ],

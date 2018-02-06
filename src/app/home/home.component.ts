@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+  fullImagePath : string;
+  constructor() {
+    this.fullImagePath = '/data/vishakha_home.jpg';
+   }
 
   ngOnInit() {
   }
