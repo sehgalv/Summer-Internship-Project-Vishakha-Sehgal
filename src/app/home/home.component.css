@@ -1,5 +1,4 @@
-.image-container {
+.background {
     width: 100%;
-    max-height: auto;
-    object-fit: cover;
+    height: 650px;
 }

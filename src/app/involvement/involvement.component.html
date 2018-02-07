@@ -1,3 +1,25 @@
-<p>
-  involvement works!
-</p>
+<mat-accordion class="example-headers-align">
+<div class="card" *ngFor="let involvement of allInvolvements">
+  <mat-expansion-panel [expanded]="step === involvement.id" (opened)="setStep(involvement.id)" hideToggle="true">
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+            {{involvement.organization}}
+        </mat-panel-title>
+        <mat-panel-description>
+          {{involvement.title}}
+          
+          <!-- <mat-icon>account_circle</mat-icon> -->
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div *ngFor="let descr of involvement.description">
+          <p>{{descr}}</p>
+      </div>
+      <mat-card class= "image-card" *ngIf="involvement.fullImagePath">
+        <img mat-card-image src="{{involvement.fullImagePath}}">
+        <mat-card-content>
+            <p>{{involvement.imageCaption}}</p>
+          </mat-card-content>
+      </mat-card>
+    </mat-expansion-panel>
+</div>
+</mat-accordion>

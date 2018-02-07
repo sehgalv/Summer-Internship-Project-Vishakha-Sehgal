@@ -1,0 +1,73 @@
+{
+    "involvements": [
+        {
+            "id": 0,
+            "organization": "CS Mentorship Program",
+            "title": "Founder",
+            "description": [
+                "● Proposed idea and detailed plan to Department Chair and received approval and funding for Fall 2017.",
+                "● Purpose is to mentor incoming student within the CS department, and give them the necessary resources and awareness about opportunities to excel",
+                "● Hold monthly meeting with 13 mentors and 27 mentees covering various topics including 'How to be involved in the VCU CS department' and 'Career Paths for a CS Student"
+            ],
+            "start_date": "August 2017",
+            "end_date": "",
+            "imageFullPath": "",
+            "imageCaption": ""
+        },
+        {
+            "id": 1,
+            "organization": "ACM-W",
+            "title": "Co-Founder",
+            "description": [
+                "● Organization to promote and support Women in Tech",
+                "● Starting a industry to student mentoring program",
+                "● Host workshops to encourage women to stay and thrive in Tech"
+            ],
+            "start_date": "November 2017",
+            "end_date": "",
+            "imageFullPath": "/assets/images/ACM-W.jpeg",
+            "imageCaption": "A workshop on ReactJS by Rachel Dorn, a CoStar Group employee"
+        },
+        {
+            "id": 2,
+            "organization": "Computer Science Student Advisory Board",
+            "title": "",
+            "description": [
+                "● Advisor to the Chair of VCU's Computer Science Department",
+                "● Attend CS faculty interviews and give input to the Department Chair",
+                "● Involved in encourage student engagement and community outreach through CS organizations, Engineering Open Houses, and high school programming contests"
+            ],
+            "start_date": "September 2016",
+            "end_date": "",
+            "imageFullPath": "",
+            "imageCaption": ""
+        },
+        {
+            "id": 3,
+            "organization": "VCU RamHacks",
+            "title": "Head Organizer",
+            "description": [
+                "● Hosted a 24 hour hackathon with over 230 participants and 17 sponsoring companies",
+                "● Responsible for sponsor contact, and maintenance of challenge, judging, and mentoring information.",
+                "● Attended Major League Hacking HackCon 2017 conference"
+            ],
+            "start_date": "",
+            "end_date": "",
+            "imageFullPath": "",
+            "imageCaption": ""
+        },
+        {
+            "id": 4,
+            "organization": "Engineering Student Ambassador",
+            "title": "Vice President",
+            "description": [
+                "● Lead tours within the Engineering School",
+                "● Community engagement and outreach"
+            ],
+            "start_date": "",
+            "end_date": "",
+            "imageFullPath": "",
+            "imageCaption": ""
+        }
+    ]
+}

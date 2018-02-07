@@ -1,10 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import {MatCardModule} from '@angular/material/card';
-import {MatToolbarModule} from '@angular/material/toolbar';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { HttpClientModule } from '@angular/common/http'
 import { RouterModule, Routes} from '@angular/router'
+import { MatExpansionModule } from '@angular/material/expansion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -12,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { InvolvementComponent } from './involvement/involvement.component';
 import { AcademicsComponent } from './academics/academics.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { InvolvementService } from './services/involvement.service';
 
 const appRoutes: Routes= [
   {path: '', component: HomeComponent},
@@ -34,9 +37,12 @@ const appRoutes: Routes= [
     MatCardModule,
     MatToolbarModule,
     NgbModule.forRoot(),
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    HttpClientModule,
+    MatExpansionModule,
+    BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [InvolvementService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

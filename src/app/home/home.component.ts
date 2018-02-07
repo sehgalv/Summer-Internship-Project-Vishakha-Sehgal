@@ -7,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   fullImagePath : string;
+  whereIamFrom : string
+  
   constructor() {
-    this.fullImagePath = '/data/vishakha_home.jpg';
+    this.fullImagePath = '/assets/images/vishakha_home.jpg';
+    this.whereIamFrom = 'Born in New Delhi, India, I moved to the US at the age of 3.'
    }
 
   ngOnInit() {
