@@ -1,8 +1,58 @@
 <mat-card class="background">
     <img mat-card-image src="{{fullImagePath}}" alt="Vishakha Sehgal">
 </mat-card>
-<mat-card>
+<mat-card class="backgound-card">
     <mat-card-title>Background</mat-card-title>
     <mat-card-subtitle>Where I am from</mat-card-subtitle>
-    <mat-card-content>{{whereIamFrom}}</mat-card-content>
+    <mat-card-content>
+        <mat-horizontal-stepper [linear]="isLinear" #stepper="matHorizontalStepper">
+            <mat-step>
+                <ng-template matStepLabel>
+                    New Delhi, India
+                </ng-template>
+                <div  fxLayout="row" fxLayout.xs="column">
+                    <mat-card  fxFlex="10%;" fxFlex.xs="50%">
+                        </mat-card>
+                    <mat-card fxFlex="40%;" fxFlex.xs="80%">
+                        <mat-card-content>Born in New Delhi, India, I </mat-card-content>
+                    </mat-card>
+                    <mat-card class="india-image-card" fxFlex="40%;" fxFlex.xs="80%">
+                        <img mat-card-image src="https://previews.123rf.com/images/peterhermesfurian/peterhermesfurian1508/peterhermesfurian150800008/43261147-india-political-map-with-capital-new-delhi-national-borders-important-cities-rivers-and-lakes-englis.jpg">
+                    </mat-card>
+                    <mat-card  fxFlex="10%;" fxFlex.xs="50%">
+                        </mat-card>
+                </div>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Chesapeake, VA</ng-template>
+                <div  fxLayout="row" fxLayout.xs="column">
+                        <mat-card  fxFlex="10%;" fxFlex.xs="50%">
+                            </mat-card>
+                        <mat-card fxFlex="40%;" fxFlex.xs="80%">
+                            <mat-card-content>Raised in Chesapeake, VA, </mat-card-content>
+                        </mat-card>
+                        <mat-card class="beach-image-card" fxFlex="40%;" fxFlex.xs="80%">
+                            <img mat-card-image src="/assets/images/beach.JPG">
+                        </mat-card>
+                        <mat-card  fxFlex="10%;" fxFlex.xs="50%">
+                            </mat-card>
+                    </div>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Richmond, VA</ng-template>
+                <div  fxLayout="row" fxLayout.xs="column">
+                        <mat-card  fxFlex="10%;" fxFlex.xs="50%">
+                            </mat-card>
+                        <mat-card fxFlex="40%;" fxFlex.xs="80%">
+                            <mat-card-content>Attending college in Richmond, VA </mat-card-content>
+                        </mat-card>
+                        <mat-card class="richmond-image-card" fxFlex="40%;" fxFlex.xs="80%">
+                            <img mat-card-image src="/assets/images/richmond.JPG">
+                        </mat-card>
+                        <mat-card  fxFlex="10%;" fxFlex.xs="50%">
+                            </mat-card>
+                    </div>
+            </mat-step>
+        </mat-horizontal-stepper>
+    </mat-card-content>
 </mat-card>

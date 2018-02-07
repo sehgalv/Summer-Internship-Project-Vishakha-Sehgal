@@ -7,6 +7,9 @@ import { HttpClientModule } from '@angular/common/http'
 import { RouterModule, Routes} from '@angular/router'
 import { MatExpansionModule } from '@angular/material/expansion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatStepperModule} from '@angular/material/stepper';
+import {MatIconModule} from '@angular/material/icon';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -40,7 +43,10 @@ const appRoutes: Routes= [
     RouterModule.forRoot(appRoutes),
     HttpClientModule,
     MatExpansionModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatStepperModule,
+    MatIconModule,
+    FlexLayoutModule
   ],
   providers: [InvolvementService],
   bootstrap: [AppComponent]

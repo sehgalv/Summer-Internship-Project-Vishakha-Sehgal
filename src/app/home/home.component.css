@@ -1,4 +1,13 @@
 .background {
     width: 100%;
-    height: 650px;
+    max-height:800px;
+}
+
+.background-card {
+    text-align: center;
+}
+
+body{
+    background: #e2e1e0;
+    text-align: center;
 }
