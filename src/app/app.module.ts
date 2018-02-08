@@ -11,6 +11,7 @@ import { MatStepperModule} from '@angular/material/stepper';
 import {MatIconModule} from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatDividerModule} from '@angular/material/divider';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -20,6 +21,7 @@ import { AcademicsComponent } from './academics/academics.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { InvolvementService } from './services/involvement.service';
 import { AcademicsService } from './services/academics.service';
+import { HobbiesService } from './services/hobbies.service';
 
 const appRoutes: Routes= [
   {path: '', component: HomeComponent},
@@ -49,9 +51,10 @@ const appRoutes: Routes= [
     MatStepperModule,
     MatIconModule,
     FlexLayoutModule,
-    MatTabsModule
+    MatTabsModule,
+    MatDividerModule
   ],
-  providers: [InvolvementService, AcademicsService],
+  providers: [InvolvementService, AcademicsService, HobbiesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

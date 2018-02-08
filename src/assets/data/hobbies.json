@@ -1,12 +1,13 @@
 {
     "hobbies": [
         {
+            "id": 0,
             "activity": "Exploring",
             "description": "",
             "image": [
                 {
-                    "imageFullPath": "",
-                    "imageCaption": ""
+                    "imageFullPath": "/assets/images/explore_with_brother.JPG",
+                    "imageCaption": "I love exploring, and have seen much of Richmond over the past 2 1/2 years I've been in Richmond. I took my brother to see Belle Isle, a picturesque park on the James River."
                 },
                 {
 
@@ -14,12 +15,13 @@
             ]
         },
         {
+            "id": 1,
             "activity": "Dancing",
             "description": "I have enjoyed Bollywood dancing for over a decade now and have performed numerous times a year in front of thousands of people!",
             "image": [
                 {
-                    "imageFullPath": "",
-                    "imageCaption": ""
+                    "imageFullPath": "/assets/images/bhangra.JPG",
+                    "imageCaption": "My dance partner and I posing in a traditional move of the Indian Folk Dance, Bhangra. This performance I participated in through my college Bhangra dance team. "
                 },
                 {
                     
@@ -27,12 +29,13 @@
             ]
         },
         {
+            "id": 2,
             "activity": "Spending Time with Family and Friends",
             "description": "",
             "image": [
                 {
-                    "imageFullPath": "",
-                    "imageCaption": ""
+                    "imageFullPath": "/assets/images/family.jpeg",
+                    "imageCaption": "My family taking a quick selfie before our Christmas party!"
                 },
                 {
                     
