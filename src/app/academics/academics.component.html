@@ -1,3 +1,55 @@
-<p>
-  academics works!
-</p>
+<mat-card>
+  <mat-card-content>
+    <h2 class="example-h2">Learn more about my academic and work experiences!</h2>
+    <mat-tab-group class="demo-tab-group">
+      <mat-tab label="College">
+        <div class="demo-tab-content" *ngFor="let academic of allSchools" fxLayout="row" fxLayout.xs="column">
+          <mat-card fxFlex="70%" fxFlex.xs="80%">
+            <mat-card-title>
+              {{academic.school}}
+            </mat-card-title>
+            <mat-card-subtitle>
+              {{academic.location}}
+              <div>
+                {{academic.start_date}} - {{academic.end_date}}
+              </div>
+            </mat-card-subtitle>
+            <mat-card-content>
+              <h5>{{academic.major}} Major with minor in {{academic.minor}} and concentration in {{academic.concentration}}</h5>
+              <div>
+                <h5>Courses I have taken:</h5>
+              </div>
+              <div *ngFor="let course of academic.courses">
+                <p>{{course}}</p>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+          <mat-card class="image-card" fxFlex="30%;" fxFlex.xs="80%">
+            <img mat-card-image src="{{academic.fullImagePath}}">
+          </mat-card>
+        </div>
+      </mat-tab>
+
+
+      <mat-tab label="Work Experience">
+        <div class="demo-tab-content" *ngFor="let work of workExperiences" fxLayout="row" fxLayout.xs="column">
+          <mat-card fxFlex="70%" fxFlex.xs="80%">
+            <mat-card-title>
+              {{work.employeer}}
+            </mat-card-title>
+            <mat-card-content>
+              {{work.title}} {{work.start_date}} - {{work.end_date}}
+              <div *ngFor="let descr of work.description">
+                <p>{{descr}}</p>
+              </div>
+            </mat-card-content>
+          </mat-card>
+          <mat-card class="mage-card" fxFlex="30%;" fxFlex.xs="80%">
+              <img mat-card-image src="{{work.fullImagePath}}">
+            </mat-card>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>

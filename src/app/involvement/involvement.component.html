@@ -7,9 +7,10 @@
         </mat-panel-title>
         <mat-panel-description>
           {{involvement.title}}
-          
-          <!-- <mat-icon>account_circle</mat-icon> -->
         </mat-panel-description>
+        <mat-panel-description>
+            {{involvement.start_date}} - {{involvement.end_date}}
+          </mat-panel-description>
       </mat-expansion-panel-header>
       <div *ngFor="let descr of involvement.description">
           <p>{{descr}}</p>

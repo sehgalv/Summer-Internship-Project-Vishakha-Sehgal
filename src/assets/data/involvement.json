@@ -10,9 +10,9 @@
                 "● Hold monthly meeting with 13 mentors and 27 mentees covering various topics including 'How to be involved in the VCU CS department' and 'Career Paths for a CS Student"
             ],
             "start_date": "August 2017",
-            "end_date": "",
-            "imageFullPath": "",
-            "imageCaption": ""
+            "end_date": "Present",
+            "imageFullPath": "/assets/images/mentorship.JPG",
+            "imageCaption": "A selfie of my mentee and me after our first monthly meetup dinner!"
         },
         {
             "id": 1,
@@ -24,7 +24,7 @@
                 "● Host workshops to encourage women to stay and thrive in Tech"
             ],
             "start_date": "November 2017",
-            "end_date": "",
+            "end_date": "Present",
             "imageFullPath": "/assets/images/ACM-W.jpeg",
             "imageCaption": "A workshop on ReactJS by Rachel Dorn, a CoStar Group employee"
         },
@@ -35,12 +35,12 @@
             "description": [
                 "● Advisor to the Chair of VCU's Computer Science Department",
                 "● Attend CS faculty interviews and give input to the Department Chair",
-                "● Involved in encourage student engagement and community outreach through CS organizations, Engineering Open Houses, and high school programming contests"
+                "● Involved in encouraging student engagement and community outreach through CS organizations, Engineering Open Houses, and high school programming contests"
             ],
             "start_date": "September 2016",
-            "end_date": "",
-            "imageFullPath": "",
-            "imageCaption": ""
+            "end_date": "Present",
+            "imageFullPath": "https://egr.vcu.edu/media/school-of-engineering/egr-main/computer-science/SAB.jpg",
+            "imageCaption": "The Fall 2017 Student Advisory Board members posing along with me!"
         },
         {
             "id": 3,
@@ -51,10 +51,10 @@
                 "● Responsible for sponsor contact, and maintenance of challenge, judging, and mentoring information.",
                 "● Attended Major League Hacking HackCon 2017 conference"
             ],
-            "start_date": "",
-            "end_date": "",
-            "imageFullPath": "",
-            "imageCaption": ""
+            "start_date": "April 2017",
+            "end_date": "Present",
+            "imageFullPath": "/assets/images/ramhacks.PNG",
+            "imageCaption": "Quark, a fellow organizer, and I participating in MLH's cup stacking event along with other participants. We ended up with a 21 cups high stack!"
         },
         {
             "id": 4,
@@ -64,10 +64,23 @@
                 "● Lead tours within the Engineering School",
                 "● Community engagement and outreach"
             ],
-            "start_date": "",
-            "end_date": "",
+            "start_date": "September 2015",
+            "end_date": "Present",
             "imageFullPath": "",
             "imageCaption": ""
+        },
+        {
+            "id": 5,
+            "organization": "Theta Tau: A Professional Engineering Fraternity",
+            "title": "Treasurer",
+            "description": [
+                "● As Treasurer, responsible for creating a semesterly budget for over $10,000. On a daily basis, I maintain the budget, handle reallocations, collect semester dues, and handle reimbursements.",
+                "● As a member of the Professional Development committee and Engineering Student Relations committee, I have organized multiple workshops, co-organized a sustainability hackathon, and increased involvement between engineering students and the engineering school through a departmental feedback panel."
+            ],
+            "start_date": "February 2016",
+            "end_date": "Present",
+            "imageFullPath": "/assets/images/OT.JPG",
+            "imageCaption": "My Little, Divya, and me showing our spirit for a Big-Little Olympics match!"
         }
     ]
 }

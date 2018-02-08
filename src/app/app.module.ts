@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatStepperModule} from '@angular/material/stepper';
 import {MatIconModule} from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatTabsModule} from '@angular/material/tabs';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -18,6 +19,7 @@ import { InvolvementComponent } from './involvement/involvement.component';
 import { AcademicsComponent } from './academics/academics.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { InvolvementService } from './services/involvement.service';
+import { AcademicsService } from './services/academics.service';
 
 const appRoutes: Routes= [
   {path: '', component: HomeComponent},
@@ -46,9 +48,10 @@ const appRoutes: Routes= [
     BrowserAnimationsModule,
     MatStepperModule,
     MatIconModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatTabsModule
   ],
-  providers: [InvolvementService],
+  providers: [InvolvementService, AcademicsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

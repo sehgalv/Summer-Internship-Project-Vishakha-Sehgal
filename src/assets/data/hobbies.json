@@ -1,0 +1,43 @@
+{
+    "hobbies": [
+        {
+            "activity": "Exploring",
+            "description": "",
+            "image": [
+                {
+                    "imageFullPath": "",
+                    "imageCaption": ""
+                },
+                {
+
+                }
+            ]
+        },
+        {
+            "activity": "Dancing",
+            "description": "I have enjoyed Bollywood dancing for over a decade now and have performed numerous times a year in front of thousands of people!",
+            "image": [
+                {
+                    "imageFullPath": "",
+                    "imageCaption": ""
+                },
+                {
+                    
+                }
+            ]
+        },
+        {
+            "activity": "Spending Time with Family and Friends",
+            "description": "",
+            "image": [
+                {
+                    "imageFullPath": "",
+                    "imageCaption": ""
+                },
+                {
+                    
+                }
+            ]
+        }
+    ]
+}

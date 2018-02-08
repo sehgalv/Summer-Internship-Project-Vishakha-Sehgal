@@ -1,0 +1,69 @@
+{
+    "academics": [
+        {
+            "id": 0,
+            "school": "Virginia Commonwealth University",
+            "location": "Richmond, VA",
+            "major": "Computer Science",
+            "GPA": "3.87",
+            "courses": [
+                "● Algorithms w/ Advanced Data Structures",
+                "● Data Structures and Object Oriented Programming",
+                "● Computer Systems",
+                "● Computer Organization",
+                "● Intro to Theory of Computation",
+                "● Software Engineering: Spec & Des",
+                "● Database Theory",
+                "● Operating Systems",
+                "● Virtual Interactive Worlds"
+            ],
+            "minor": "General Business and Mathematics",
+            "concentration": "Data Science",
+            "start_date": "August 2015",
+            "end_date": "May 2019",
+            "imageFullPath": "https://egr.vcu.edu/media/school-of-engineering/egr-main/img/layout/comp-icon.svg",
+            "imageCaption": "computer science"
+        }
+    ],
+    "work": [
+        {
+            "id": 0,
+            "employeer": "Capital One",
+            "title": "Software Engineering Intern",
+            "description": [
+                "● Developing a feature in Angular 2 of a new credit card call center web application to be used internally by Capital One agents",
+                "● Developing a full stack web application using MongoDB, Node.js, and Angular 2 in a team of three interns. The application applies CRUD operations to roles and operations agents can have in a call center. This process originally was done through excel with the use of macros."
+            ],
+            "start_date": "October 2016",
+            "end_date": "Present",
+            "imageFullPath": "https://www.agilealliance.org/wp-content/uploads/2015/12/logo-capitalOne.png",
+            "imageCaption": "Capital One"
+        },
+        {
+            "id": 1,
+            "employeer": "VCU School of Engineering",
+            "title": "Computer Science Tutor",
+            "description": [
+                "● Tutored peers taking Introduction to Programming, Data Structures and Object Oriented Programming, and Introduction to Discrete Structures."
+            ],
+            "start_date": "September 2016",
+            "end_date": "May 2017",
+            "imageFullPath": "https://cdn.shockoe.com/wp-content/uploads/2015/01/26143902/VCU_SOE.jpg",
+            "imageCaption": "engineering"
+        },
+        {
+            "id": 2,
+            "employeer": "Dominion Energy",
+            "title": "IT Electric Transmission Intern",
+            "description": [
+                "● Developed and maintained Master Cyber Asset List of approximately 500 assets in SharePoint wiki",
+                "● Created workstation layouts for various locations with Microsoft Visio",
+                "● Familiarized with the processes of the energy industry and learned terminology and software associated with the Bulk Electric System, specifically used the Energy Management System (EMS) software."
+            ],
+            "start_date": "September 2016",
+            "end_date": "May 2017",
+            "imageFullPath": "http://www.elp.com/content/elp/en/articles/2017/02/dominion-resources-is-now-dominion-energy/_jcr_content/leftcolumn/article/thumbnailimage.img.jpg",
+            "imageCaption": "Dominion"
+        }
+    ]
+}
