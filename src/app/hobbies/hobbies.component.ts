@@ -9,6 +9,7 @@ export class HobbiesComponent implements OnInit {
   allHobbies: Hobby[];
 
   constructor(private involvementService: HobbiesService) { }
+  panelOpenState: boolean = false;
 
   ngOnInit() {
     this.allHobbies = this.involvementService.getHobbies();

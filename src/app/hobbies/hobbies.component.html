@@ -1,3 +1,53 @@
-<p>
-  hobbies works!
-</p>
+<!-- <mat-card>
+    <h2 class="example-h2">My favorite Activites to do</h2>
+    <mat-list>
+      <div class="demo-content" *ngFor="let hobby of allHobbies" fxLayout="row" fxLayout.xs="column">
+        <mat-list-item>
+          <mat-card>
+          <mat-card fxFlex="40%" fxFlex.xs="80%">
+            <mat-card-title>
+              {{hobby.activity}}
+            </mat-card-title>
+            <mat-card-subtitle>
+              {{hobby.description}}
+            </mat-card-subtitle>
+          </mat-card>
+
+          <mat-card class="image-card" fxFlex="40%;" fxFlex.xs="80%">
+            <img mat-card-image src="{{hobby.fullImagePath}}">
+          </mat-card>
+          <mat-card class="image-card" fxFlex="20%;" fxFlex.xs="80%">
+            <img mat-card-image src="{{hobby.fullImagePath}}">
+          </mat-card>
+        </mat-card>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    </div>
+    </mat-list>
+</mat-card> -->
+
+<mat-card>
+    <h2 class="example-h2">My favorite Activites to do</h2>
+    <mat-accordion>
+        <div class="demo-content" *ngFor="let hobby of allHobbies" >
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              {{hobby.activity}}
+            </mat-panel-title>
+            <mat-panel-description>
+              {{hobby.description}}
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <div fxLayout="row" fxLayout.xs="column" *ngFor="let image of hobby.images">
+              <mat-card class="image-card" fxFlex="40%;" fxFlex.xs="80%">
+                  <img mat-card-image src="{{image.imageFullPath}}">
+                  <mat-card-content>
+                      <p>{{image.imageCaption}}</p>
+                    </mat-card-content>
+                </mat-card>
+          </div>
+        </mat-expansion-panel>
+      </div>
+      </mat-accordion>
+</mat-card>

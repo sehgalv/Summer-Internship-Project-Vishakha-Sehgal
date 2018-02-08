@@ -12,6 +12,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -52,7 +53,8 @@ const appRoutes: Routes= [
     MatIconModule,
     FlexLayoutModule,
     MatTabsModule,
-    MatDividerModule
+    MatDividerModule,
+    MatListModule
   ],
   providers: [InvolvementService, AcademicsService, HobbiesService],
   bootstrap: [AppComponent]
